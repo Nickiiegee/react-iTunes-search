@@ -1,0 +1,115 @@
+body {
+  background: #eeeeee;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: rgb(1, 172, 240);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  box-shadow: 1px 1px 1px 1px gray;
+  position: fixed;
+  width: 100%;
+}
+
+.search-bar {
+  font-size: 15px;
+  padding: 13px;
+  border-radius: 2px;
+  border: 1px solid gray;
+  position: relative;
+  width: 30vw;
+}
+
+.search-bar:focus {
+  background-color: rgba(225, 225, 225, 0.979);
+  box-shadow: 3px 3px 3px 3px #111;
+}
+
+.search-icon {
+  position: relative;
+  padding-right: 0.7rem;
+  width: 40px;
+  height: 40px;
+}
+
+.album {
+  background-color: slategrey;
+  margin: 20px;
+  width: 20%;
+  display: inline-block;
+}
+
+.album h1, h3, p {
+  text-align: left;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.album h3 {
+  font-style: italic;
+  color: #fff;
+}
+
+.album img {
+  width: 200px;
+  height: 200px;
+  padding-top: 1.5rem;
+}
+
+.zoom {
+  transition: transform .2s;
+  /* Animation */
+  margin: auto;
+  align-items: stretch;
+  border-radius: 20px;
+  padding: 1em;
+}
+
+.zoom:hover {
+  transform: scale(1.2);
+  /* (150% zoom) */
+}
+
+.dropdown {
+  width: 10%;
+  color: black;
+}
+
+.fav {
+  margin-left: 200px;
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+
+.submit {
+  background: none;
+  border: 1px solid black;
+  border-radius: 5px;
+  box-shadow: 2px 2px 4px gray;
+}
+
+.submit:hover {
+  color: #eeeeee;
+  cursor: pointer;
+}
+
+#favouriteButton {
+  margin-right: 25px;
+}
+
+.dropdown:hover {
+  cursor: pointer;
+}
+
+.result {
+  padding-top: 70px;
+}
